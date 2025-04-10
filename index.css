@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0df1d7; /* Umumiy orqa fon rangi */
+    margin: 0;
+}
+
+.pricing-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 85px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+
+.pricing-plan {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; /* Kattalashish effekti uchun animatsiya */
+}
+
+.pricing-plan:hover {
+    transform: scale(1.15); /* Sichqoncha ustiga kelganda 5% kattalashish */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sichqoncha ustiga kelganda soya */
+}
+
+.pricing-plan img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.plan-title {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-title1 {
+    color: slategray;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-title2 {
+    color: rgb(255, 196, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-details {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.plan-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff; /* Misol uchun asosiy rang */
+    margin-bottom: 10px;
+}
+
+.plan-price1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: slategray; /* Misol uchun asosiy rang */
+    margin-bottom: 10px;
+}
+
+.plan-price2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255,196,0); /* Misol uchun asosiy rang */
+    margin-bottom: 10px;
+}
